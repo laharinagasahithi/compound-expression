@@ -1,0 +1,9 @@
+A compound expression is a series of simple expressions joined by arithmetic operators.
+A simple expression used in a compound expression must return a numeric value.
+
+example:
+('SMITH' || 'JONES')
+sum(x) / y
+sqrt(256) * avg(column)
+rank() over (order by qtysold) / 100
+(select (pricepaid - commission) from sales where dateid = 1882) * (qtysold)
